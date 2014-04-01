@@ -1,6 +1,9 @@
 FORGE
   remote: http://forge.puppetlabs.com
   specs:
+    puppetlabs/apache (1.0.1)
+      puppetlabs/concat (>= 1.0.0)
+      puppetlabs/stdlib (>= 2.4.0)
     puppetlabs/apt (1.4.2)
       puppetlabs/stdlib (>= 2.2.1)
     puppetlabs/concat (1.1.0-rc1)
@@ -18,8 +21,13 @@ FORGE
       puppetlabs/postgresql (< 4.0.0, >= 3.1.0)
       puppetlabs/stdlib (>= 2.2.0)
     puppetlabs/stdlib (4.1.0)
+    stephenrjohnson/puppet (0.0.20)
+      puppetlabs/apache (>= 0.8.0)
+      puppetlabs/inifile (>= 1.0.0)
+      puppetlabs/puppetdb (>= 2.0.0)
 
 DEPENDENCIES
   puppetlabs/puppetdb (< 4.0.0, >= 3.0.0)
   puppetlabs/stdlib (>= 0)
+  stephenrjohnson/puppet (= 0.0.20)
 

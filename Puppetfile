@@ -1,7 +1,9 @@
 #!/usr/bin/env ruby
 
-forge "http://forge.puppetlabs.com"
+forge 'http://forge.puppetlabs.com'
 
 mod 'puppetlabs/stdlib'
 
-mod "puppetlabs/puppetdb", ">= 3.0.0", "< 4.0.0"
+mod 'puppetlabs/puppetdb', '>= 3.0.0', '< 4.0.0'
+
+mod 'stephenrjohnson/puppet', '= 0.0.20'
